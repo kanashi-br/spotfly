@@ -1,0 +1,7 @@
+{
+  "name": "spotfly",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
