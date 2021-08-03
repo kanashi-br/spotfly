@@ -1,0 +1,31 @@
+.md {
+    --ion-background-color: linear-gradient(160deg, rgba(173,172,172,1) 0%, rgba(79,78,78,1) 19%, rgba(0,0,0,1) 42%);
+}
+
+// .header-md {
+//     height: 0;
+// }
+
+ion-toolbar#title{
+    --background:rgba(0, 0, 0, 0);
+}
+
+// ION-CARDS MORNING
+
+ion-card#morning {
+    margin: 0;
+}
+
+ion-card#morning ion-item.md{
+    margin: 0;
+    --padding-start: 0;
+}
+
+ion-card#morning ion-item.md ion-badge{
+    margin-right: 3px;
+}
+
+ion-footer ion-toolbar ion-subtitle{
+    margin: 0 20px;
+}
+

@@ -1,17 +1,62 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Home
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Home</ion-title>
+  <ion-header [translucent]="true" color="dark">
+    <ion-toolbar id="title">
+      <ion-title>
+        Home
+      </ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Home"></app-explore-container>
+  <ion-grid>
+    <ion-row>
+
+      <ion-col>
+        <ion-card id="morning">
+          <ion-item>
+            <ion-badge slot="start" color="dark">
+              <a href="/">
+                <img src="../../../assets/icon/favicon.png" alt="logo-ionic">
+              </a>
+            </ion-badge>
+            <ion-label>This is bla bla bla</ion-label>
+          </ion-item>
+        </ion-card>
+      </ion-col>
+
+      <ion-col>
+        <ion-card id="morning">
+          <ion-item>
+            <ion-badge slot="start" color="dark">
+              <a href="/">
+                <img src="../../../assets/icon/favicon.png" alt="logo-ionic">
+              </a>
+            </ion-badge>
+            <ion-label>This is bla bla bla</ion-label>
+          </ion-item>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+
+  </ion-grid>
+
 </ion-content>
+
+
+<ion-footer>
+  <ion-toolbar id="play-bar">
+    <ion-badge slot="start" color="light">
+      <img src="../../../assets/icon/favicon.png" />
+    </ion-badge>
+
+    <ion-title>Tocando música...</ion-title>
+    <ion-subtitle>Artista tal</ion-subtitle>
+    <ion-buttons slot="end">
+      <ion-button>
+        <ion-icon slot="icon-only" name="heart-outline"></ion-icon>
+      </ion-button>
+      <ion-button>
+        <ion-icon slot="icon-only" name="play"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-footer>
